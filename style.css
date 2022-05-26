@@ -1,0 +1,107 @@
+
+
+#cabecalho{
+    display: flex;
+    align-items: center;
+    background-color: rgb(100, 100, 100);
+    justify-content: space-around;
+    border-top:5px double;
+    border-bottom: 5px double;
+    width: 100%;
+    height: 50px;
+}
+
+.botao{
+    color:black;
+    text-decoration: none;
+    
+} .botao:hover{
+    visibility:visible;
+    color:white;
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 5px;
+}
+
+
+#divImagem{
+    display: flex;
+    background: linear-gradient(50deg, rgb(241, 230, 216) 1%, rgb(255, 123, 0) 99%);
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    
+    
+} #logopreto{
+    display: inline;
+    height: auto;
+    width: auto;
+    
+}
+
+
+#tituloHistoria{
+    display: flex;
+    align-items: center;
+    background-color: rgb(120, 120, 120);
+    justify-content: space-around;
+    border-top:5px double;
+    border-bottom: 5px double;
+    width: 100%;
+    height: 50px;
+}
+
+.conteudoHistoria{
+    display:flex;
+    border: 1px solid black;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: auto;
+    background-color: black;
+
+} 
+
+.logoHistoria{
+    border: 1px solid black;
+    margin: 50px;
+   
+} 
+
+#paragrafoHistoria{
+    color:white;
+    padding-left: 50px;
+}
+
+img {
+    height: 300px;
+    width: 500px;
+}
+
+
+
+#tituloClassicos{
+    display: flex;
+    align-items: center;
+    background-color: rgb(140, 140, 140);
+    justify-content: space-around;
+    border-top:5px double;
+    border-bottom: 5px double;
+    width: 100%;
+    height: 50px;
+}
+
+#tituloColab{
+    display: flex;
+    background-color: rgb(160, 160, 160);
+    border-top:5px double;
+    border-bottom: 5px double;
+    width: 100%;
+    height: 50px;
+   justify-content: center ;
+}
+
+
+
